@@ -1,0 +1,46 @@
+.home-page-container{
+    font-size: 15px;
+    font-weight: normal;
+    h1{
+        font-size: 35px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    h3{
+        font-size: 21px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    li{
+        margin-bottom:20px;
+        &::marker{
+         color: #ffb700;
+        }
+    }
+    .btn{
+       display: block;
+       background-color: snow;
+       color:black;
+       margin:10px;
+    }
+
+    .footerbar{
+      background-color: black;
+      height: 50vh;
+    }
+
+    .section1{
+        background-color: black;
+    }
+    .section2{
+        background-color: black;
+        flex-direction: row-reverse;
+        @media screen and (max-width:600px){
+            display: flex;
+            flex-direction: column-reverse;
+            height: auto;
+        }
+    }
+}
+ 
+ 
