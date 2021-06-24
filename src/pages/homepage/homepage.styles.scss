@@ -22,6 +22,10 @@
        background-color: snow;
        color:black;
        margin:10px;
+       &:hover{
+           background-color: black;
+           color:snow;
+       }
     }
 
     .footerbar{
